@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v4.min.js"></script>
++	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>   
++	
++	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css"/>
++	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
++	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="title">Comparing sizes in our Solar System</div>
+    <div id="sliderText"><span>Drag to zoom</span></div>
+    <div id="slider"></div>
+    <div id="chart"></div>
+
+    <div id="expl">
++			<span><a href="https://twitter.com/CommanderBethy" target="_blank">created by Bethy Diakabana</a> | <a href="http://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size" target="_blank">data</a> | <a href="https://github.com/collinhover/nasaprospect" target="_blank">images</a></span>
++	</div>
+
++	<script>$('.ui-slider-handle').draggable();</script>
++	<script src="js/helperFunctions.js"></script>
++	<script src="js/mainCode.js"></script>
+</body>
+</html>
+
+
++
